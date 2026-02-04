@@ -15,8 +15,8 @@ export default function Home() {
           <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(120deg,rgba(255,255,255,0.65),transparent_40%),linear-gradient(to_right,rgba(11,26,43,0.05)_1px,transparent_1px),linear-gradient(to_bottom,rgba(11,26,43,0.05)_1px,transparent_1px)] bg-[length:auto,120px_120px,120px_120px] opacity-60" />
           <div className="relative mx-auto grid w-full max-w-[1200px] grid-cols-12 items-center gap-10 lg:gap-12">
             <div className="col-span-12 flex flex-col gap-5 lg:col-span-7">
-              <p className="text-xs font-bold uppercase tracking-[0.22em] text-accent-strong">
-                Precision automation partner
+              <p className="text-[11px] font-semibold uppercase tracking-[0.3em] text-ink-500">
+                Fort Worth based * Validation-ready automation
               </p>
               <h1 className="font-display text-[clamp(2.4rem,3vw+1.6rem,5rem)] leading-[1.08] tracking-[-0.02em]">
                 Blue Sky <span className="block text-accent">Industrial Solutions</span>
@@ -68,7 +68,7 @@ export default function Home() {
                   src="/IMG_0820.MOV"
                 />
                 <span className="absolute bottom-4 left-4 rounded-full bg-ink-900/80 px-3 py-1 text-xs text-white">
-                  Conveyor Line Integration
+                  Filling Automation
                 </span>
               </div>
               <div className="rounded-[18px] border border-ink-900/10 bg-surface-bright px-5 py-4 text-sm text-ink-700 shadow-[0_12px_24px_rgba(11,26,43,0.12)]">
@@ -107,7 +107,7 @@ export default function Home() {
                   />
                   <div className="absolute bottom-4 left-4 right-4 flex flex-wrap gap-2">
                     <span className="rounded-full bg-ink-900/80 px-3 py-1 text-xs text-white">
-                      Filling Automation
+                      Conveyor Line Integration
                     </span>
                   </div>
                 </div>
