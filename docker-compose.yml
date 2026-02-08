@@ -1,7 +1,7 @@
 services:
   web:
     build: .
-    container_name: thespacewaffles-app
+    container_name: jackhartwig-app
     restart: unless-stopped
     environment:
       NODE_ENV: "production"
