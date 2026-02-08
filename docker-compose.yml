@@ -1,0 +1,10 @@
+services:
+  web:
+    build: .
+    container_name: thespacewaffles-app
+    restart: unless-stopped
+    environment:
+      NODE_ENV: "production"
+    ports:
+      - "3021:3000" # host:container
+    command: "npm run start"

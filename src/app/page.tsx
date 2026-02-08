@@ -71,10 +71,10 @@ export default function Home() {
                   Filling Automation
                 </span>
               </div>
-              <div className="rounded-[18px] border border-ink-900/10 bg-surface-bright px-5 py-4 text-sm text-ink-700 shadow-[0_12px_24px_rgba(11,26,43,0.12)]">
+              {/* <div className="rounded-[18px] border border-ink-900/10 bg-surface-bright px-5 py-4 text-sm text-ink-700 shadow-[0_12px_24px_rgba(11,26,43,0.12)]">
                 Systems engineered for uptime, traceability, and cleanroom
                 performance.
-              </div>
+              </div> */}
             </div>
           </div>
         </section>
@@ -88,11 +88,11 @@ export default function Home() {
               <h2 className="font-display text-[clamp(2rem,2.2vw+1.4rem,3.2rem)] leading-tight">
                 Automation that scales with your production floor.
               </h2>
-              <p className="text-lg text-ink-700">
+              {/* <p className="text-lg text-ink-700">
                 From equipment integration to digital traceability, we design
                 and deploy systems built for performance, compliance, and
                 long-term growth.
-              </p>
+              </p> */}
             </div>
             <div className="mt-12 grid grid-cols-12 items-center gap-8">
               <div className="col-span-12 justify-self-center lg:col-span-5">
